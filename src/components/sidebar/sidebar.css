@@ -1,0 +1,102 @@
+@import '../../styles/style.css';
+
+/* LOGO SECTION */
+.logo-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+#logo-icon {
+    width: 35px;
+    height: 35px;
+}
+
+.app-name {
+    color: var(--theme-color);
+    font-weight: bold;
+}
+
+
+/* PROFILE SECTION */
+.profile-section {
+    align-items: center;
+    padding: 30px 0px;
+    border-bottom: 1px solid rgb(241, 238, 238);
+}
+
+#profile-logo {
+    width: 45%;
+    display: block;
+    margin: auto auto;
+    border-radius: 50%;
+}
+
+.user-name{
+   font-size: 20px;
+   text-align: center;
+   margin-top: 5px;
+}
+
+/* BALANCE SECTION */
+.balance-section{
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    width: 95%;
+    text-align: center !important;
+    padding: 5px 0px;
+    margin: auto;
+    border-radius: 2px;
+}
+
+.balance{
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    margin: auto;
+}
+
+#balance-icon{
+ font-size: 30px;
+}
+
+
+/* LIST MENU ITEM */
+
+.list-menu-items{
+    display:table;
+    width: 100%;
+    padding: 20px 0px;
+    list-style-type: none;
+}
+
+#menu-item{
+    padding: 5px 0px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 16px;
+    width: 90%;
+}
+#link-item{
+    text-decoration: none;
+    padding: 5px 20px;
+    color: black;
+    display: block;
+    border-radius: 5px;
+}
+#link-item:hover{
+    background-color: rgb(223, 236, 222);
+}
+
+
+#menu-item-logout{
+    background-color: var(--red-background);
+    padding: 5px 0px;
+    margin: 100px auto;
+    text-align: center;
+    font-size: 16px;
+    width: 90%;
+    border-radius: 5px;
+    color: #fff;
+}
